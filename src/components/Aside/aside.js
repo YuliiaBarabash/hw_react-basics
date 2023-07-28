@@ -1,10 +1,13 @@
 import './aside.css';
-import flower from '../../pics/flower.png';
 
-const Aside = () => {
+const Aside = () => { 
     return (
         <aside className='aside-bar'>
-            <img className='side-bar-pic' src={flower} alt='flower'/>
+            <ul className='nav-menu'>
+                <li className='nav-menu-item'>About us </li>
+                <li className='nav-menu-item'>Features</li>
+                <li className='nav-menu-item'>Contacts</li>
+            </ul>
         </aside>
     );
 }
