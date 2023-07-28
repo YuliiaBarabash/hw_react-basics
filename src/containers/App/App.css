@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-areas:
+    "a a a"
+    "b c c"
+    "b c c";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
 }
 
 .App-logo {
